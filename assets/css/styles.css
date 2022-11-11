@@ -217,7 +217,7 @@ body.dark-theme {
   gap: 2rem 3rem;
 }
 
-.nav__link {
+.nav-link {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -227,11 +227,11 @@ body.dark-theme {
   transition: color .3s;
 }
 
-.nav__link:hover {
+.nav-link:hover {
   color: var(--title-color);
 }
 
-.nav__link i {
+.nav-link i {
   font-size: 1.25rem;
 }
 
