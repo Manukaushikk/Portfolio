@@ -3,565 +3,334 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--=============== FAVICON ===============-->
-    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-
+    <title> Portfolio </title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="css/style.css">
     <!--=============== REMIXICONS ===============-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-    <title>Responsive portfolio website Chris - Bedimcode</title>
 </head>
 
 <body>
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">
-                Manu
-            </a>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Manu Kaushik</a>
 
-            <div class="nav__menu" id="nav-link">
-            <!-- <div class="nav__menu" id="nav-link"> -->
-                <ul class="nav__list grid">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
-                            <i class="ri-home-5-line"></i>Home
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#skill" class="nav__link">
-                            <i class="ri-trophy-line"></i>skills
+        <div class="bx bx-menu" id="menu-icon"></div>
 
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#qualification" class="nav__link">
-                            <i class="ri-trophy-line"></i>qualification
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#project" class="nav__link">
-                            <i class="ri-image-line"></i>Projects
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <i class="ri-chat-3-line"></i>Contact
-                        </a>
-                    </li>
-                </ul>
-                <!-- Close button -->
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
-                </div>
-            </div>
-            <div class="nav__buttons">
-                <!-- Theme Change Button -->
-                <i class="ri-moon-line change-theme" id="theme-button"></i>
-
-                <!-- Toogle Button -->
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-4-line"></i>
-                </div>
-            </div>
-        </nav>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
     </header>
-
-    <!--==================== MAIN ====================-->
-    <main class="main">
-        <!--==================== HOME ====================-->
-        <section class="home section" id="home">
-            <div class="home__container container grid section__border">
-                <div class="home__data grid">
-                    <h1 class="home__title">
-                        Hi I'm Manu Kaushik <br>
-                        Frontend Developer <br>
-                        Based From India <br>
-                    </h1>
-                    <div class="home__blob grid">
-                        <div class="home__profil">
-                            <img src="assets/img/perfil.png" alt="Home profile">
-                        </div>
-                        <img src="assets/img/shape-wawes.svg" alt="" class="home__shape-wawes">
-                        <img src="assets/img/shape-circle.svg" alt="" class="home__shape-circle">
-                    </div>
-                    <ul class="home__social">
-                        <a href="https://www.linkedin.com/in/manu-kaushik-430668220/" target="_blank"
-                            class="home__social-link">
-                            <i class="ri-linkedin-box-line"></i>
-                        </a>
-
-                        <a href="https://github.com/Manukaushikk" target="_blank" class="home__social-link">
-                            <i class="ri-github-line"></i>
-                        </a>
-
-                    </ul>
-                </div>
-
-                <!--==================== HOME INFO 1 ====================-->
-                <div class="home__info">
-                    <div>
-                        <h3 class="home__info-title">
-                            BIOGRAPHY
-                        </h3>
-                        <p class="home__info-description">
-                            Hi, I'm Manu Kaushik, Frontend Developer.
-                            Passionate about Learning new Technologies.
-                        </p>
-                    </div>
-
-                    <div>
-                        <h3 class="home__info-title">
-                            CONTACT
-                        </h3>
-                        <p class="home__info-description">
-                            Gurgaon, Haryana
-                            codebymanuk@gmail.com
-                        </p>
-                    </div>
-
-                    <div>
-                        <h3 class="home__info-title">
-                            Passion
-                        </h3>
-                        <p class="home__info-description">
-                            Logic Building.
-                            Web - Developemnt.
-                            Designing
-                        </p>
-                    </div>
-                </div>
-
-                <!--==================== HOME INFO 2 ====================-->
-                <div class="home__info">
-                    <div>
-                        <h3 class="home__info-title">
-                            YEARS OF EXPERIENCE
-                        </h3>
-                        <p class="home__info-description">
-                            Fresher
-                        </p>
-                    </div>
-
-                    <div>
-                        <h3 class="home__info-title">
-                            COMPLETED PROJECTS
-                        </h3>
-                        <p class="home__info-description">
-                            4+
-                        </p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-        <!--==================== SKILLS ====================-->
-        <section class="skills section" id="skills">
-            <h2 class="section__title">Skills</h2>
-            <div class="skills__container container grid section__border">
-                <!--==================== SKILLS 1 ====================-->
-                <div class="skills__content">
-                    <h3 class="skills__title">
-                        <i class="ri-braces-line"></i> Frontend Developer
-
-                    </h3>
-                    <div class="skills__info">
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="assets/img/html-1.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">HTML</h3>
-                            <span class="skills__subtitle">Advanced</span>
-                        </div>
-
-
-
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="assets/img/logo-javascript.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">JAVASCRIPT</h3>
-                            <span class="skills__subtitle">Intermediate</span>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="assets/img/react-2.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">REACT</h3>
-                            <span class="skills__subtitle">Beginner</span>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="assets/img/java-4.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">Java</h3>
-                            <span class="skills__subtitle">Intermediate</span>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="assets/img/redux.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">Redux</h3>
-                            <span class="skills__subtitle">Beginner</span>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <!--==================== SKILLS 2 ====================-->
-                <div class="skills__content">
-                    <h3 class="skills__title">
-                        <i class="ri-pantone-line"></i> Deployment & Design
-                    </h3>
-
-
-                    <div class="skills__info">
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="assets/img/git-icon.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">GIT</h3>
-                            <span class="skills__subtitle">Intermediate</span>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="assets/img/netlify.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">Netlify</h3>
-                            <span class="skills__subtitle">Beginner</span>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="assets/img/tailwind-css-2.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">Tailwind CSS</h3>
-                            <span class="skills__subtitle">Beginner</span>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="assets/img/bootstrap-4.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">Bootstrap</h3>
-                            <span class="skills__subtitle">Intermediate</span>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="assets/img/css-3.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">CSS</h3>
-                            <span class="skills__subtitle">Intermediate</span>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__blob">
-                                <img src="assets/img/firebase.svg" alt="skills image">
-                            </div>
-                            <h3 class="skills__name">Firebase</h3>
-                            <span class="skills__subtitle">Beginner</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!--==================== QUALIFICATION ====================-->
-        <section class="qualification section" id="qualification">
-            <h2 class="section__title">Qualification</h2>
-            <span class="section__subtitle">Experience & Education</span>
-
-            <div class="qualification__container container grid section__border">
-                <!--==================== QUALIFICATION 1 ====================-->
-                <div class="qualification__content">
-                    <h3 class="qualification__title">
-                        <i class="ri-pencil-ruler-line"></i>Education
-                    </h3>
-                    <div class="qualification__info">
-                        <h3 class="qualification__name">
-                            Bachelor of Technology in Computer Science
-                        </h3>
-                        <span class="qualification__country">Faridabad - Manav Rachna International Institute of
-                            Research
-                            and Studies
-                        </span>
-                        <span class="qualification__year">2019 - 2023</span>
-
-                    </div>
-
-                    <div>
-                        <h3 class="qualification__name">
-                            12th
-                        </h3>
-                        <span class="qualification__country">Rewari - RPS Public School</span>
-                        <span class="qualification__year">2017 - 2018</span>
-
-                    </div>
-                    <div>
-                        <h3 class="qualification__name">
-                            10th
-                        </h3>
-                        <span class="qualification__country">Rewari - Jain Public School</span>
-                        <span class="qualification__year">2015 - 2016</span>
-
-                    </div>
-                </div>
-
-                <!--==================== QUALIFICATION 2 ====================-->
-                <div class="qualification__content">
-                    <h3 class="qualification__title">
-                        <i class="ri-building-line"></i>Work
-
-                    </h3>
-                    <div class="qualification__info">
-                        <div>
-                            <h3 class="qualification__name">
-                                Frontend Developer
-                            </h3>
-                            <span class="qualification__country">Noida - Mobilus Solutions</span>
-                            <span class="qualification__year">May 2022 - July 2022</span>
-
-                        </div>
-
-                        <div>
-                            <h3 class="qualification__name">
-
-                            </h3>
-                            <span class="qualification__country"></span>
-                            <span class="qualification__year"></span>
-
-                        </div>
-
-                        <div>
-                            <h3 class="qualification__name">
-                            </h3>
-                            <span class="qualification__country"></span>
-                            <span class="qualification__year"></span>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <img src="assets/img/shape-circle.svg" alt="qualification image" class="qualification__img">
-        </section>
-
-        <!--==================== PROJECTS ====================-->
-        <section class="projects section" id="projects">
-            <h2 class="section__title">Projects</h2>
-            <span class="section__subtitle">Most Recent Work</span>
-
-            <div class="container section__border">
-                <div class="projects__container swiper">
-                    <div class="swiper-wrapper">
-                        <!--==================== PROJECTS 1 ====================-->
-                        <div class="projects__content swiper-slide">
-                            <img src="assets/img/project1.jpg" alt="projects image" class="projects__img">
-
-                            <div>
-                                <span class="projects__subtitle"></span>
-                                <h1 class="projects__title"></h1>
-
-                                <a href="#" class="projects__button">
-                                    View demo <i class="ri-arrow-right-line"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <!--==================== PROJECTS 2 ====================-->
-                        <div class="projects__content swiper-slide">
-                            <img src="assets/img/project2.jpg" alt="projects image" class="projects__img">
-
-                            <div>
-                                <span class="projects__subtitle"></span>
-                                <h1 class="projects__title"></h1>
-
-                                <a href="#" class="projects__button">
-                                    View demo <i class="ri-arrow-right-line"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!--==================== PROJECTS 3 ====================-->
-                        <div class="projects__content swiper-slide">
-                            <img src="assets/img/project3.jpg" alt="projects image" class="projects__img">
-
-                            <div>
-                                <span class="projects__subtitle"></span>
-                                <h1 class="projects__title"></h1>
-
-                                <a href="#" class="projects__button">
-                                    View demo <i class="ri-arrow-right-line"></i>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!--==================== PROJECTS 4 ====================-->
-                        <div class="projects__content swiper-slide">
-                            <img src="assets/img/project4.jpg" alt="projects image" class="projects__img">
-
-                            <div>
-                                <span class="projects__subtitle"></span>
-                                <h1 class="projects__title"></h1>
-
-                                <a href="#" class="projects__button">
-                                    View demo <i class="ri-arrow-right-line"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-button-next">
-                        <i class="ri-arrow-right-s-line"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="ri-arrow-left-s-line"></i>
-                    </div>
-                    <!-- Swiper - Pagination -->
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </section>
-
-        <!--==================== CONTACT ====================-->
-        <section class="contact section" id="contact">
-            <h2 class="section__title">Contact Me 📞</h2>
-            <span class="section__subtitle">Get in Touch</span>
-
-            <div class="contact__container container grid section__border">
-                <div class="contact__content">
-                    <h3 class="contact__title">
-                        <i class="ri-chat-1-line"></i>Talk to me
-                    </h3>
-
-                    <div class="contact__info">
-                        <div class="contact__data">
-                            <span class="contact__data-title">Email</span>
-                            <span class="contact__data-info">codebymanuk@gmail.com </span>
-                        </div>
-                        <div class="contact__data">
-                            <span class="contact__data-title">WhatsApp</span>
-                            <span class="contact__data-info">9468021922</span>
-                            <a href="LINK of Whatsapp" target="_blank" class="contact__button">
-                                Write Message<i class="ri-arrow-right-line"></i>
-                            </a>
-                        </div>
-
-                        <div class="contact__data">
-                            <span class="contact__data-title">Instagram</span>
-                            <span class="contact__data-info">manukaushikkkkk</span>
-                            <a href="https://www.instagram.com/manukaushikkkkk/" target="_blank"
-                                class="contact__button">
-                                Write Message<i class="ri-arrow-right-line"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="contact__content">
-                    <h3 class="contact__title">
-                        <i class="ri-send-plane-line"></i>Write me your project
-                    </h3>
-                    <form action="" class="contact__form" id="contact-form">
-                        <div class="contact__form-div">
-                            <label class="contact__form-tag">Names</label>
-                            <input type="text" name="user_name" required placeholder="Write your Name"
-                                class="contact__form-input" id="contact-name">
-                        </div>
-
-                        <div class="contact__form-div">
-                            <label class="contact__form-tag">Mail</label>
-                            <input type="email" name="user_email" required placeholder="Write your Mail"
-                                class="contact__form-input" id="contact-email">
-                        </div>
-
-                        <div class="contact__form-div contact__form-area">
-                            <label class="contact__form-tag">Project</label>
-                            <textarea name="user_project" placeholder="Write your project" id="contact-project"
-                                class="contact__form-input"></textarea>
-                        </div>
-
-                        <p class="contact__message" id="contact-message"></p>
-
-                        <button type="submit" class="contact__button">
-                            Submit <i class="ri-arrow-right-up-line"></i>
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!--==================== FOOTER ====================-->
-    <footer class="footer">
-        <div class="footer__container container">
-            <h1 class="footer__title">Manu Kaushik</h1>
-            <p>Frontend Developer</p>
-
-            <ul class="footer__list">
-                <li>
-                    <a href="#home" class="footer__link">Home</a>
-                </li>
-
-                <li>
-                    <a href="#skills" class="footer__link">Skills</a>
-                </li>
-
-                <li>
-                    <a href="#projects" class="footer__link">Projects</a>
-                </li>
-
-            </ul>
-            <ul class="footer__social">
-                <a href="https://www.linkedin.com/in/manu-kaushik-430668220/" target="_blank"
-                    class="footer__social-link">
-                    <i class="ri-linkedin-box-line"></i>
-                </a>
-                <a href="https://github.com/Manukaushikk" target="_blank" class="footer__social-link">
-                    <i class="ri-github-line"></i>
-                </a>
-                <a href="https://dev.to/manukaushikk" target="_blank" class="footer__social-link">
-                    <i class="ri-stack-line"></i>
-                </a>
-            </ul>
-            <span class="footer__copy">
-                &#169; Copyright Manu Kaushik. All rights reserved.
-            </span>
+    <!-- Home -->
+
+    <section class="home" id="home">
+        <div class="social">
+            <a href="https://github.com/Manukaushikk"><i class='ri-github-line'></i></a>
+            <a href="https://www.linkedin.com/in/manu-kaushik-430668220/"> <i class="ri-linkedin-box-line"></i>
+
+        </div>
+        <div class="home-img">
+            <img src="11.png" alt="">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Manu kaushik</h1>
+            <h2>Frontend Developer</h2>
+            <p> Passionate about Learning new
+                <br> Technologies
+            </p>
+            <a href="#contact" class="btn">Contact Me</a>
         </div>
 
-    </footer>
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introduction</span>
+        </div>
+        <!-- About Content -->
+        <div class="about-container">
+            <div class="about-img">
+                <img src="121.jpeg" alt="">
+            </div>
+            <div class="about-text">
+                <p>My name is Manu Kaushik.
+                    I was born and raised in Rewari,Haryana
+                    Currently I am pursuing Bachelors in technology from Manav Rachna International University.
+                    The reason I took CSE in my bachelors is that I was always curious to learn about new technologies.
+                    During my graduation I learnt different technologies like web developement , app developement and
+                    Data science.
+                    I built different projects on these technologies.
+                    I am also good at management skills. As I have volunteered in organizing Technical Fest which was
+                    held in my college.
+                    I am good at communication skills.
+                    I constantly update myself with new technologies used in the market.</p>
+                <div class="information">
+                    <!-- Box 1 -->
+                    <div class="info-box">
+                        <i class='bx bxs-user'></i>
+                        <span>Manu Kaushik</span>
+                    </div>
+                    <!-- Box 2 -->
+                    <div class="info-box">
+                        <i class='bx bxs-phone'></i>
+                        <span>+91 9468021922</span>
+                    </div>
+                    <!-- Box 3 -->
+                    <div class="info-box">
+                        <i class='bx bxs-envelope'></i>
+                        <span> codebymanuk@gmail.com </span>
+                    </div>
+                </div>
+                <a href="https://pdf.ac/1HGtYi" class="btn">Download Cv</a>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <!--==================== SKILLS ====================-->
+    <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <div class="skills__container container grid section__border">
+            <!--==================== SKILLS 1 ====================-->
+            <div class="skills__content">
+                <h3 class="skills__title">
+                    <i class="ri-braces-line"></i> Frontend Developer
+
+                </h3>
+                <div class="skills__info">
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/html-1.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">HTML</h3>
+                        <span class="skills__subtitle">Advanced</span>
+                    </div>
 
 
-    <!--========== SCROLL UP ==========-->
-    <a href="#" class="scrollup" id="scroll-up">
-        <i class="ri-arrow-up-line"></i>
-    </a>
 
-    <!--=============== SCROLLREVEAL ===============-->
-    <script src="assets/js/scrollreveal.min.js"></script>
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/logo-javascript.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">JAVASCRIPT</h3>
+                        <span class="skills__subtitle">Intermediate</span>
+                    </div>
 
-    <!--=============== SWIPER JS ===============-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/react-2.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">REACT</h3>
+                        <span class="skills__subtitle">Beginner</span>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/java-4.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">Java</h3>
+                        <span class="skills__subtitle">Intermediate</span>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/redux.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">Redux</h3>
+                        <span class="skills__subtitle">Beginner</span>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--==================== SKILLS 2 ====================-->
+            <div class="skills__content">
+                <h3 class="skills__title">
+                    <i class="ri-pantone-line"></i> Deployment & Design
+                </h3>
+
+
+                <div class="skills__info">
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/git-icon.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">GIT</h3>
+                        <span class="skills__subtitle">Intermediate</span>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/netlify.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">Netlify</h3>
+                        <span class="skills__subtitle">Beginner</span>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/tailwind-css-2.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">Tailwind CSS</h3>
+                        <span class="skills__subtitle">Beginner</span>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/bootstrap-4.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">Bootstrap</h3>
+                        <span class="skills__subtitle">Intermediate</span>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/css-3.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">CSS</h3>
+                        <span class="skills__subtitle">Intermediate</span>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__blob">
+                            <img src="assets/firebase.svg" alt="skills image">
+                        </div>
+                        <h3 class="skills__name">Firebase</h3>
+                        <span class="skills__subtitle">Beginner</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h2>Portfolio</h2>
+            <span>Our Recent Work</span>
+        </div>
+        <div class="portfolio-content">
+            <div class="portfolio-img">
+                <img src="blog-2.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="blog-3.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="blog-4.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="blog-5.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="blog-6.jpg" alt="">
+            </div>
+            <div class="portfolio-img">
+                <img src="blog-7.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me 📞</h2>
+        <span class="section__subtitle">Get in Touch</span>
+
+        <div class="contact__container container grid section__border">
+            <div class="contact__content">
+                <h3 class="contact__title">
+                    <i class="ri-chat-1-line"></i>Talk to me
+                </h3>
+
+                <div class="contact__info">
+                    <div class="contact__data">
+                        <span class="contact__data-title">Email</span>
+                        <span class="contact__data-info">codebymanuk@gmail.com </span>
+                    </div>
+                    <div class="contact__data">
+                        <span class="contact__data-title">WhatsApp</span>
+                        <span class="contact__data-info">9468021922</span>
+                        <a href="LINK of Whatsapp" target="_blank" class="contact__button">
+                            Write Message<i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="contact__data">
+                        <span class="contact__data-title">Instagram</span>
+                        <span class="contact__data-info">manukaushikkkkk</span>
+                        <a href="https://www.instagram.com/manukaushikkkkk/" target="_blank" class="contact__button">
+                            Write Message<i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact__content">
+                <h3 class="contact__title">
+                    <i class="ri-send-plane-line"></i>Write me your project
+                </h3>
+                <form action="" class="contact__form" id="contact-form">
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag">Names</label>
+                        <input type="text" name="user_name" required placeholder="Write your Name"
+                            class="contact__form-input" id="contact-name">
+                    </div>
+
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag">Mail</label>
+                        <input type="email" name="user_email" required placeholder="Write your Mail"
+                            class="contact__form-input" id="contact-email">
+                    </div>
+
+                    <div class="contact__form-div contact__form-area">
+                        <label class="contact__form-tag">Project</label>
+                        <textarea name="user_project" placeholder="Write your project" id="contact-project"
+                            class="contact__form-input"></textarea>
+                    </div>
+
+                    <p class="contact__message" id="contact-message"></p>
+
+                    <button type="submit" class="contact__button">
+                        Submit <i class="ri-arrow-right-up-line"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <div class="footer">
+        <h2>Manu Kaushik</h2>
+        <div class="footer-social">
+            <a href="https://github.com/Manukaushikk"><i class='ri-github-line'></i></a>
+            <a href="https://www.linkedin.com/in/manu-kaushik-430668220/"> <i class="ri-linkedin-box-line"></i>
+        </div>
+
+    </div>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>Create By <a href="">Kaushik Developer</a> | All Right Reserved.</p>
+    </div>
 
     <!--=============== EMAIL JS ===============-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
 
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
+
+    <!-- Link To JS -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
