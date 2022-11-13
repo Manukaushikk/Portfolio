@@ -10,12 +10,15 @@
     <title> Portfolio </title>
     <!-- Link To CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
     <!--=============== REMIXICONS ===============-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Box Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
 </head>
 
 <body>
@@ -223,35 +226,131 @@
             <h2>Portfolio</h2>
             <span>Our Recent Work</span>
         </div>
-        <!-- <a href="https://github.com/Manukaushikk" target="_blank"><i class='ri-github-line'></i></a> -->
-        <!-- <a href="https://imdb-b4c35.web.app/" target="_blank"> <i class="ri-live-fill"></i> -->
-        <div class="portfolio-content">
-            <div class="portfolio-img">
-                <a href="https://github.com/Manukaushikk" target="_blank"><i class='ri-github-line'></i></a>
-                <a href="https://imdb-b4c35.web.app/" target="_blank"> <i class="ri-live-fill"></i>
-                    <img src="blog-2.jpg" alt="">
-            </div>
-            <div class="portfolio-img">
-                <a href="https://github.com/Manukaushikk" target="_blank"><i class='ri-github-line'></i></a>
-                <a href="https://manukaushikk.github.io/Jira_app/" target="_blank"> <i class="ri-live-fill"></i>
-                    <img src="blog-3.jpg" alt="">
-            </div>
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
 
-            <div class="portfolio-img">
-                <img src="blog-4.jpg" alt="">
-            </div>
-            <div class="portfolio-img">
-                <img src="blog-5.jpg" alt="">
-            </div>
-            <div class="portfolio-img">
-                <img src="blog-6.jpg" alt="">
-            </div>
-            <div class="portfolio-img">
-                <img src="blog-7.jpg" alt="">
-            </div>
+                            <div class="card-image">
+                                <img src="image/mov.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
 
-        </div>
+                        <div class="card-content">
+                            <h2 class="name">Movies App</h2>
+                            <p class="description">Used React and tailwind ,TMDB API to implement imdb clone.
+                                It contains features like searching,sorting ,pagination, bookmarks.
+                                Local storage was used to sync data across multiple plages
+                                React router DOM was used to perform navigation</p>
+
+                            <div class="btn__container">
+                                <button class="btn btn1">
+                                    <a href="https://github.com/Manukaushikk/IMDB" target="_blank"><i
+                                            class="ri-github-fill"></i></a>
+                                </button>
+                                <button class="btn btn1">
+                                    <a href="https://imdb-b4c35.web.app/" target="_blank"> <i
+                                            class="ri-live-fill"></i></a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="image/jira.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">Jira Managnment Ticket System </h2>
+                            <p class="description">Created Jira Ticket management clone using Vanilla javascript,html
+                                and
+                                css.
+                                It offer features like ticket crud , changing priroties ,filter by colors, locking and
+                                unlocking
+                                Plain Css was used to create a modal for creating a given ticket
+                                Future scope : local storage , locking of individual ticket, group by color</p>
+
+                            <div class="btn__container">
+                                <button class="btn btn1">
+                                    <a href="https://github.com/Manukaushikk/Jira_app" target="_blank"><i
+                                            class="ri-github-fill"></i></a>
+                                </button>
+                                <button class="btn btn1">
+                                    <a href="https://manukaushikk.github.io/Jira_app/" target="_blank"> <i
+                                            class="ri-live-fill"></i></a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="image/wiki.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">
+                                wikipedia-search-engine</h2>
+                            <p class="description">Retrieve Wikipedia pages related to the query and order them
+                                according to
+                                relevance
+                            </p>
+
+                            <div class="btn__container">
+                                <button class="btn btn1">
+                                    <a href="https://github.com/Manukaushikk/wikipedia-search-engine" target="_blank"><i
+                                            class="ri-github-fill"></i></a>
+                                </button>
+                                <button class="btn btn1">
+                                    <a href="https://manukaushikk.github.io/wikipedia-search-engine/" target="_blank">
+                                        <i class="ri-live-fill"></i></a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <!--<img src="images/profile9.jpg" alt="" class="card-img">-->
+                            </div>
+                        </div>
+
+                        <div class="card-content">
+                            <h2 class="name">David Dell</h2>
+                            <p class="description">The lorem text the section that contains header with having open
+                                functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+
+                            <div class="btn__container">
+                                <button class="btn btn1">
+                                    <a href="" target="_blank"><i class="ri-github-fill"></i></a>
+                                </button>
+                                <button class="btn btn1">
+                                    <a href="" target="_blank"> <i class="ri-live-fill"></i></a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
+
+    <div class="swiper-button-next swiper-navBtn"></div>
+    <div class="swiper-button-prev swiper-navBtn"></div>
+    <div class="swiper-pagination"></div>
+    </div>
+
     <!-- Contact -->
     <section class="contact section" id="contact">
         <h2 class="section__title">Contact Me 📞</h2>
@@ -336,6 +435,9 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
 
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
 
     <!-- Link To JS -->
     <script src="js/script.js"></script>
